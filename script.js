@@ -87,6 +87,11 @@ addBtn.addEventListener('click', () => {
     deleteBtn.addEventListener('click', () => {
         taskList.removeChild(li);
     });
+
+    // Add checkbox functionality
+    checkbox.addEventListener('change', () => {
+        span.style.textDecoration = checkbox.checked ? 'line-through' : 'none';
+    });
 });
 
 // Example usage
