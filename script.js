@@ -4,8 +4,11 @@ let list = document.querySelector("ul");
 let total=0;
 let totalCount = document.querySelector("taskCount");
 let totalBtn = document.querySelector(".total");
+let totalDisplay = document.querySelector("h3");
+totalBtn.addEventListener("click", function() {
+  totalDisplay.innerHTML = "Total tasks: " + total;
+})
 
-total
 btn.addEventListener("click", function() {
   if(task.value==""){
     alert("Please enter a task");

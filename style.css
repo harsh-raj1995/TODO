@@ -82,3 +82,17 @@ li button{
   padding: 0.5%;
   width: 80px;
 }
+.total{
+  background-color: rgb(243, 198, 140);
+  border: none;
+  border-radius: 24px;
+  padding: 0.5%;
+  width: 150px;
+  margin: auto;
+  margin-top: 20px;
+}
+h3{
+  color: #89986D;
+  text-align: center;
+  margin-top: 20px;
+}
